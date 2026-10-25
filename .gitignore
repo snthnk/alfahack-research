@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Секреты
+.env
+
+# Данные и артефакты
+data/
+_work/
+*.npy
+*.parquet
+submission.csv
+*.zip
+
+# рабочие каталоги агента и данные
+_fa_work/
+_fa_final/
+submission.csv
+*.zip
+.env
+data/
